@@ -273,8 +273,10 @@ a.menu-toggle-btn {
   background: #b69e40;
 }
 .templatemo_servicetext	{ float: left; margin-top: 230px; }
+.about-me p { font-size: 1.2em; }
+
 .templatemo_hexservices	{ width: 20%; margin-top: -10%; }
-.templatemo_hexservices p{ text-align: center; }
+.templatemo_hexservices p{ text-align: center;  }
 
 /* mid hexa */
 .hexa-a {
@@ -554,7 +556,7 @@ a.menu-toggle-btn {
     height: 388px;
 }
 
-.templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 100px; }
+.templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 300px; }
 .templatemo_footer .hex_footer	{ float: left; margin-right: 5px; height: 40px; }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -745,3 +747,57 @@ and (max-width : 559px)	{
 .content { display: none; height: auto; }
 .homepage	{ display: block; }
 .leftalign	{ float: left; }
+
+
+
+/* Animation ship */
+
+#paper-boat {
+	width: 10vw;
+	margin-top: 27vh;
+	margin-left: 2vw;
+	animation-name: paper-boat-animated;
+	animation-duration: 100s;
+	position: absolute;
+	animation-iteration-count: 2;
+}
+
+@keyframes paper-boat-animated {
+    0% {
+      margin-left: 4vw;
+    }
+    50% {
+      margin-left: 85vw;
+      transform: scaleX(1);
+    }
+    56% {
+      margin-left: 85vw;
+      transform: scaleX(-1);
+    }
+    94% {
+      transform: scaleX(-1);
+      margin-left: 4vw;
+    }
+    100% {
+      margin-left: 4vw;
+      transform: scaleX(1);
+    }
+  }
+
+  .box {
+	-webkit-transition: all 2s ease;  
+	-moz-transition: all 2s ease;  
+	-o-transition: all 2s ease;  
+	-ms-transition: all 2s ease;  
+	transition: all 2s ease;  
+	display: inline-block;
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto;
+  }
+  
+  .grow {
+	width: 1000px;
+  }
+  
