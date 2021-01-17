@@ -569,6 +569,37 @@ a.menu-toggle-btn {
 .templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 300px; }
 .templatemo_footer .hex_footer	{ float: left; margin-right: 5px; height: 40px; }
 
+
+
+
+/* 
+Projects: Unterseiten styling
+*/
+
+.header-projects {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-around;
+	margin-bottom: 100px;
+	margin-top: -100px;
+}
+
+.header-projects h2 {
+	width: 60vw;
+	color: #478589; 
+	
+}
+
+.header-projects .fas {
+	width: 30vw;
+	font-size: large;
+	align-items: left;
+} 
+
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
